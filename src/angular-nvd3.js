@@ -180,8 +180,8 @@
                                     }
                                 }
                             }
-                            if (nv.tooltip && nv.tooltip.cleanup) {
-                                nv.tooltip.cleanup();
+                            if (scope.chart && scope.chart.tooltip){
+                                d3.select('#' + scope.chart.tooltip.id()).remove();
                             }
                             scope.chart = null;
                         },
