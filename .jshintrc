@@ -5,6 +5,7 @@
     "expr": true,
     "immed": true,
     "laxbreak": true,
+    "laxcomma": true,
     "latedef": true,
     "newcap": true,
     "nonew": true,
@@ -14,6 +15,7 @@
     "trailing": true,
     "undef": true,
     "unused": "vars",
+    "boss": true,
     "globals": {
         "angular": false,
         "nv": false,
@@ -21,6 +23,7 @@
         "navigator": false,
         "window": false,
         "clearTimeout": false,
-        "setTimeout": false
+        "setTimeout": false,
+        "document": false
     }
 }
